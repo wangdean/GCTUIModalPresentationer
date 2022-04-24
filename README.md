@@ -24,7 +24,7 @@ copy于https://github.com/GCTec/GCTUIModalPresentationViewController，防止作
 #### 支持 `Cocoapods` 导入
 
 ```ruby
-pod 'GCTUIModalPresentationViewController'
+pod 'GCTUIModalPresentationer
 ```
 
 
