@@ -14,6 +14,7 @@ static NSInteger const kAnimationOptionCurveIOS7 = (7 << 16);
 
 @end
 
+
 @interface GCTUIModalPresentationViewController ()
 
 @property (nonatomic, strong) GCTUIModalPresentationControllerTransitionDelegate *transitionDelegate;
