@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2139E5EC91D64315F3B2EA38414F7B97 /* Pods-GCTUIModalPresentationViewControllerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F6DFE747847CF4F985B7134408E8AC /* Pods-GCTUIModalPresentationViewControllerDemo-dummy.m */; };
+		4BAEBA506A89F4B3406C0E553CC2CF1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		4CED8E62B05A6F79A91A8A1A1E9B0E37 /* GCTUIModalPresentationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 50CF10D76EA022278245D9342C174FD5 /* GCTUIModalPresentationViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8BAC570244B1DD05B233596286A65CBB /* GCTUIModalPresentationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B8F67D8A2F3CE0B3695BC70B854F2D /* GCTUIModalPresentationViewController.m */; };
+		DDD73D8B9D349DF03A03E229E6461634 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		F6774C4B6444F06485C64899025483D5 /* GCTUIModalPresentationViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E468FDB1C0441BC3D27D3A08DB042638 /* GCTUIModalPresentationViewController-dummy.m */; };
+		FFF063ADB905A0AA09B568F8EF8F1EBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7A982D1A782B017223C6409505FEA41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 032DC70BFC3BBFC4CB0EC0EB6DCD28CD;
+			remoteInfo = GCTUIModalPresentationViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A870CC9554E51EEE0FF758EEB1D277E /* GCTUIModalPresentationViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCTUIModalPresentationViewController-prefix.pch"; sourceTree = "<group>"; };
+		2E3D1F999E8026208C44005E4CCBA15A /* libPods-GCTUIModalPresentationViewControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GCTUIModalPresentationViewControllerDemo.a"; path = "libPods-GCTUIModalPresentationViewControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CF10D76EA022278245D9342C174FD5 /* GCTUIModalPresentationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTUIModalPresentationViewController.h; path = GCTUIModalPresentationViewController/Classes/GCTUIModalPresentationViewController.h; sourceTree = "<group>"; };
+		52D004DDD84DC889C3CC8C300435F7FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		75B8F67D8A2F3CE0B3695BC70B854F2D /* GCTUIModalPresentationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTUIModalPresentationViewController.m; path = GCTUIModalPresentationViewController/Classes/GCTUIModalPresentationViewController.m; sourceTree = "<group>"; };
+		77195B810239D9D2DFF58C03DEDC76D2 /* Pods-GCTUIModalPresentationViewControllerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCTUIModalPresentationViewControllerDemo-frameworks.sh"; sourceTree = "<group>"; };
+		771C01316D9AC897173970A24FA3A8FD /* libGCTUIModalPresentationViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGCTUIModalPresentationViewController.a; path = libGCTUIModalPresentationViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5B7AF5CE9BD14C42A608E3C5D7AE96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		85F6DFE747847CF4F985B7134408E8AC /* Pods-GCTUIModalPresentationViewControllerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GCTUIModalPresentationViewControllerDemo-dummy.m"; sourceTree = "<group>"; };
+		8CBB5CA1B8511656034DD562F84122E0 /* Pods-GCTUIModalPresentationViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCTUIModalPresentationViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4074201AC32BE1D64E778649D246706 /* Pods-GCTUIModalPresentationViewControllerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCTUIModalPresentationViewControllerDemo-resources.sh"; sourceTree = "<group>"; };
+		B143BC8A4F548BA8B27B55B17C5A124E /* GCTUIModalPresentationViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCTUIModalPresentationViewController.xcconfig; sourceTree = "<group>"; };
+		B4E921B54F4C99D3D9BAF34EDCB56FE7 /* Pods-GCTUIModalPresentationViewControllerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GCTUIModalPresentationViewControllerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		B5BC3646C507725FE61406DE0ADE38DD /* GCTUIModalPresentationViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GCTUIModalPresentationViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E0F4DE8FB2F0F65092C8290C356CC0B1 /* Pods-GCTUIModalPresentationViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCTUIModalPresentationViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E129798493642446F39252F2FB06D19A /* Pods-GCTUIModalPresentationViewControllerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GCTUIModalPresentationViewControllerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E468FDB1C0441BC3D27D3A08DB042638 /* GCTUIModalPresentationViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCTUIModalPresentationViewController-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC86C036317B49DA9B3B7FCF7FF851A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF063ADB905A0AA09B568F8EF8F1EBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9730B99EFB5CAAE1C0C8F9B48685C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BAEBA506A89F4B3406C0E553CC2CF1E /* Foundation.framework in Frameworks */,
+				DDD73D8B9D349DF03A03E229E6461634 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C046701DD8F632DFD96ECA71DE7118 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D2A84FA82CBFA78AE5530F4638DE5 /* Pods-GCTUIModalPresentationViewControllerDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4F889687A89AB647EF512256BD87BC14 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C68F4C7C75649CA98EC18A1CC3025F5 /* GCTUIModalPresentationViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7C4CDB3D5CD5732AA5BFF8EB0A8BA931 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B143BC8A4F548BA8B27B55B17C5A124E /* GCTUIModalPresentationViewController.xcconfig */,
+				E468FDB1C0441BC3D27D3A08DB042638 /* GCTUIModalPresentationViewController-dummy.m */,
+				2A870CC9554E51EEE0FF758EEB1D277E /* GCTUIModalPresentationViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "GCTUIModalPresentationViewControllerDemo/Pods/Target Support Files/GCTUIModalPresentationViewController";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4F889687A89AB647EF512256BD87BC14 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				D362710D8FA02D5E355623139014E37E /* Products */,
+				17C046701DD8F632DFD96ECA71DE7118 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8216CEA1E12655C7E9F2D7594F6CC0BF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B5BC3646C507725FE61406DE0ADE38DD /* GCTUIModalPresentationViewController.podspec */,
+				7A5B7AF5CE9BD14C42A608E3C5D7AE96 /* LICENSE */,
+				52D004DDD84DC889C3CC8C300435F7FB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8C68F4C7C75649CA98EC18A1CC3025F5 /* GCTUIModalPresentationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				50CF10D76EA022278245D9342C174FD5 /* GCTUIModalPresentationViewController.h */,
+				75B8F67D8A2F3CE0B3695BC70B854F2D /* GCTUIModalPresentationViewController.m */,
+				8216CEA1E12655C7E9F2D7594F6CC0BF /* Pod */,
+				7C4CDB3D5CD5732AA5BFF8EB0A8BA931 /* Support Files */,
+			);
+			name = GCTUIModalPresentationViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D362710D8FA02D5E355623139014E37E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				771C01316D9AC897173970A24FA3A8FD /* libGCTUIModalPresentationViewController.a */,
+				2E3D1F999E8026208C44005E4CCBA15A /* libPods-GCTUIModalPresentationViewControllerDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE2D2A84FA82CBFA78AE5530F4638DE5 /* Pods-GCTUIModalPresentationViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E129798493642446F39252F2FB06D19A /* Pods-GCTUIModalPresentationViewControllerDemo-acknowledgements.markdown */,
+				B4E921B54F4C99D3D9BAF34EDCB56FE7 /* Pods-GCTUIModalPresentationViewControllerDemo-acknowledgements.plist */,
+				85F6DFE747847CF4F985B7134408E8AC /* Pods-GCTUIModalPresentationViewControllerDemo-dummy.m */,
+				77195B810239D9D2DFF58C03DEDC76D2 /* Pods-GCTUIModalPresentationViewControllerDemo-frameworks.sh */,
+				A4074201AC32BE1D64E778649D246706 /* Pods-GCTUIModalPresentationViewControllerDemo-resources.sh */,
+				8CBB5CA1B8511656034DD562F84122E0 /* Pods-GCTUIModalPresentationViewControllerDemo.debug.xcconfig */,
+				E0F4DE8FB2F0F65092C8290C356CC0B1 /* Pods-GCTUIModalPresentationViewControllerDemo.release.xcconfig */,
+			);
+			name = "Pods-GCTUIModalPresentationViewControllerDemo";
+			path = "Target Support Files/Pods-GCTUIModalPresentationViewControllerDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		972C058AE7122DB700DEA2C299F185EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CED8E62B05A6F79A91A8A1A1E9B0E37 /* GCTUIModalPresentationViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		032DC70BFC3BBFC4CB0EC0EB6DCD28CD /* GCTUIModalPresentationViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8AB63733324B8C923CE2D034D7171E /* Build configuration list for PBXNativeTarget "GCTUIModalPresentationViewController" */;
+			buildPhases = (
+				F698F17DA35F5C36D4127EA574147E5D /* Sources */,
+				FF9730B99EFB5CAAE1C0C8F9B48685C0 /* Frameworks */,
+				972C058AE7122DB700DEA2C299F185EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCTUIModalPresentationViewController;
+			productName = GCTUIModalPresentationViewController;
+			productReference = 771C01316D9AC897173970A24FA3A8FD /* libGCTUIModalPresentationViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BA40E76892BBC9C5DA8014B662D95197 /* Pods-GCTUIModalPresentationViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF8C9CC27AA13F759AEB7A6DE66F892 /* Build configuration list for PBXNativeTarget "Pods-GCTUIModalPresentationViewControllerDemo" */;
+			buildPhases = (
+				7F5B281197612F91A209A9D2E6F39D74 /* Sources */,
+				BC86C036317B49DA9B3B7FCF7FF851A3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AFDCDC76FC092E64AA04F2F0C30B5A5 /* PBXTargetDependency */,
+			);
+			name = "Pods-GCTUIModalPresentationViewControllerDemo";
+			productName = "Pods-GCTUIModalPresentationViewControllerDemo";
+			productReference = 2E3D1F999E8026208C44005E4CCBA15A /* libPods-GCTUIModalPresentationViewControllerDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D362710D8FA02D5E355623139014E37E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				032DC70BFC3BBFC4CB0EC0EB6DCD28CD /* GCTUIModalPresentationViewController */,
+				BA40E76892BBC9C5DA8014B662D95197 /* Pods-GCTUIModalPresentationViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F5B281197612F91A209A9D2E6F39D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2139E5EC91D64315F3B2EA38414F7B97 /* Pods-GCTUIModalPresentationViewControllerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F698F17DA35F5C36D4127EA574147E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6774C4B6444F06485C64899025483D5 /* GCTUIModalPresentationViewController-dummy.m in Sources */,
+				8BAC570244B1DD05B233596286A65CBB /* GCTUIModalPresentationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AFDCDC76FC092E64AA04F2F0C30B5A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GCTUIModalPresentationViewController;
+			target = 032DC70BFC3BBFC4CB0EC0EB6DCD28CD /* GCTUIModalPresentationViewController */;
+			targetProxy = C7A982D1A782B017223C6409505FEA41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		27726249A2DFF186C5D28F986666E230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CBB5CA1B8511656034DD562F84122E0 /* Pods-GCTUIModalPresentationViewControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A48AF5382F13FD1AABC328F2061CB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F4DE8FB2F0F65092C8290C356CC0B1 /* Pods-GCTUIModalPresentationViewControllerDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4F97EEFCE769AD31576C8D38034B74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B143BC8A4F548BA8B27B55B17C5A124E /* GCTUIModalPresentationViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GCTUIModalPresentationViewController/GCTUIModalPresentationViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GCTUIModalPresentationViewController;
+				PRODUCT_NAME = GCTUIModalPresentationViewController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5C5247C9A2C9ADDE15A83CB48F7EDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B143BC8A4F548BA8B27B55B17C5A124E /* GCTUIModalPresentationViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GCTUIModalPresentationViewController/GCTUIModalPresentationViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GCTUIModalPresentationViewController;
+				PRODUCT_NAME = GCTUIModalPresentationViewController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BF8C9CC27AA13F759AEB7A6DE66F892 /* Build configuration list for PBXNativeTarget "Pods-GCTUIModalPresentationViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27726249A2DFF186C5D28F986666E230 /* Debug */,
+				7A48AF5382F13FD1AABC328F2061CB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C8AB63733324B8C923CE2D034D7171E /* Build configuration list for PBXNativeTarget "GCTUIModalPresentationViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F97EEFCE769AD31576C8D38034B74A /* Debug */,
+				B5C5247C9A2C9ADDE15A83CB48F7EDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

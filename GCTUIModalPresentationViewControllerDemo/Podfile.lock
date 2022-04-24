@@ -1,0 +1,16 @@
+PODS:
+  - GCTUIModalPresentationViewController (0.0.1)
+
+DEPENDENCIES:
+  - GCTUIModalPresentationViewController (from `../`)
+
+EXTERNAL SOURCES:
+  GCTUIModalPresentationViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GCTUIModalPresentationViewController: ba9c52230a574b2de80c8303790e0e48adb6179a
+
+PODFILE CHECKSUM: 0271b07c26a466f3c3bcaf4e0e9b91c0853c7bec
+
+COCOAPODS: 1.5.0
